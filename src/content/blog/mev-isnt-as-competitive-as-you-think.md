@@ -77,4 +77,9 @@ Bot optimization is relatively easy for MEV teams so they focus on short tail ME
 There is a financial incentive for sophisticated MEV teams to target short tail MEV because there is simply more value extractable. This causes any team with sufficient sophistication to target short tail MEV, leaving long tail much less competitive.
 
 ## Conclusion
+Just because not all MEV is as competitive as you think, doesn't mean it isn't difficult and very risky. 
+
+> but your're still likely to spend all your money on ec2
+> -- <cite>[0x_doc_mach](https://discordapp.com/users/904963180252499988)</cite>
+
 If you visited this page seeking encouragement, I hope you found it. Good luck anon!
