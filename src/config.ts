@@ -2,7 +2,7 @@ import type { Site, SocialObjects } from "./types";
 
 
 export const SITE = {
-  website: "",
+  website: "https://loclhost:3000",
   author: "Matthew (mteam88)",
   desc: "MEV alpha, blockchain insights, and CS fun",
   title: "mteam88",
