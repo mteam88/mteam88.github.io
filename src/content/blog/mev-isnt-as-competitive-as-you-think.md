@@ -13,7 +13,7 @@ description:
 ## Table of Contents
 
 ## Introduction
-Maximum Extractable Value (MEV) has garnered significant attention in the blockchain space, with general opinion being that it's an intensely competitive field. However, this perception may not be entirely accurate. In this post, we'll explore why the level of competition in MEV extraction may not be as intense as some perceive it to be and discuss the factors that contribute to this reality. We will also zoom in on the differences between short tail MEV and long tail MEV and how these differences affect competition.
+Maximum Extractable Value (MEV) has garnered significant attention in the blockchain space, with general opinion being that it's an intensely competitive field. However, this perception may not be entirely accurate. In this post, I'll explore why the level of competition in MEV extraction may not be as intense as some perceive it to be and discuss the factors that contribute to this reality. I will also explain the differences between short tail MEV and long tail MEV and how these differences affect competition.
 
 ## What does MEV competition look like?
 On Ethereum, MEV competition is primarily between searchers. Let's begin with some of the differences between different categories of MEV:
@@ -27,7 +27,7 @@ For those interested, [Flashbots](https://github.com/flashbots/mev-job-board) ma
 
 Short tail MEV is usually based on opportunites (ops) that are extremely well known in searcher communities and the bots that target these ops are often run by teams who put a lot of effort into optimizing their bots.
 
-Long tail MEV on the other hand, is usually based on ops that are specific and more difficult to automate. These ops are often not well known and tend to be targeted by individual searchers.
+Long tail MEV on the other hand, is usually based on ops that are specific, more difficult to automate, and occur less often. These ops are often not well known and tend to be targeted by individual searchers.
 ### Competition for ops
 Short tail MEV is based on strategies that are well known and easy to automate. A vast majority of the competition between short-tail MEV bots is based on using various techniques to "hit" specific ops before other bots. This is usually done by using a combination of the following techniques:
 - Efficiency (Bot computation)
@@ -53,7 +53,7 @@ Competition for short tail MEV is competition to "hit" a MEV opportunity, while 
 Long tail MEV is less competitive because it is based on ops that are not well known and are often not easy to automate. This means that there are fewer bots that are competing to hit the same ops. Research and chain scanning are the tools of long tail searchers. They key difference is that losts of long-tail MEV is often not extracted because searchers simply have not discovered the alpha yet.
 
 ### Give me the numbers...
-Unfortunately, tools like [eigenphi](https://eigenphi.io/) do a much better job of monitoring short tail MEV extraction data than long tail MEV. The reason that MEV analysis tools can't record long tail MEV is because long tail is much harder to identify. This lack of ample data makes analyzing extraction to indicate competition difficult.
+Unfortunately, tools like [eigenphi](https://eigenphi.io/) do a much better job of monitoring short tail MEV extraction data than long tail MEV. The reason that MEV analysis tools can't record long tail is because it much harder to identify. Because of this lack of data, it becomes dfifficult to quantify the difference in competition using volume as an indicator.
 
 A more useful metric is **bribes**.
 
