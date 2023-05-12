@@ -35,6 +35,8 @@ Short tail MEV is based on strategies that are well known and easy to automate. 
 - Bribing (Gas price competition)
 
 ### Competition for alpha
+Alpha is exclusive knowledge or information that creates a competitive advantage. Alpha in this context refersto a technique or strategy that allows a searcher to discover new ops.
+
 As opposed to short tail MEV, long tail MEV is based much less on competition for ops and much more on competition for alpha. This is because long tail MEV ops are usually not well known and are often not easy to automate. This means that the competition for long tail MEV is based on finding new ops to target.
 
 This often requires significant manual effort and research. Efficiency, Latency, Bribing are still important, but they are not the primary focus of long tail MEV searchers. Once a searcher researches an op, they may be able to hit that op for a long time before other searchers find out about it.
