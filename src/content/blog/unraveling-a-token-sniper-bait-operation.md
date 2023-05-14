@@ -18,7 +18,7 @@ This is a story about how I unraveled and took advantage of a complex sniper bai
 ## What is Token Sniping?
 Token liquidity snipers are automated bots that buy tokens as soon as liquidity is added to a protocol in an attempt to be first to the next big meme coin. 
 
-An excellent resource to learn about token snipers is [this presentation from the Usenix conference.](https://www.usenix.org/conference/usenixsecurity23/presentation/cernera)
+An excellent resource to learn about token snipers is [this presentation from the UseNix conference.](https://www.usenix.org/conference/usenixsecurity23/presentation/cernera)
 
 Automated token snipers usually use algorithms and heuristics to choose which tokens to buy into, intending to stay away from rug pulls. My research shows 3 main heuristics:
  - Deployer Reputation: The on-chain or off-chain reputation of the token deployer.

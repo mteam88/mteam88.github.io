@@ -25,7 +25,7 @@ The Ethereum Foundation provides an excellent classification of MEV:
 
 For those interested, [Flashbots](https://github.com/flashbots/mev-job-board) maintains a limited list of long tail MEV opportunities
 
-Short tail MEV is usually based on opportunites (ops) that are extremely well known in searcher communities and the bots that target these ops are often run by teams who put a lot of effort into optimizing their bots.
+Short tail MEV is usually based on opportunities (ops) that are extremely well known in searcher communities and the bots that target these ops are often run by teams who put a lot of effort into optimizing their bots.
 
 Long tail MEV on the other hand, is usually based on ops that are specific, more difficult to automate, and occur less often. These ops are often not well known and tend to be targeted by individual searchers.
 ### Competition for ops
@@ -35,7 +35,7 @@ Short tail MEV is based on strategies that are well known and easy to automate. 
 - Bribing (Gas price competition)
 
 ### Competition for alpha
-Alpha is exclusive knowledge or information that creates a competitive advantage. Alpha in this context refersto a technique or strategy that allows a searcher to discover new ops.
+Alpha is exclusive knowledge or information that creates a competitive advantage. Alpha in this context refers to a technique or strategy that allows a searcher to discover new ops.
 
 As opposed to short tail MEV, long tail MEV is based much less on competition for ops and much more on competition for alpha. This is because long tail MEV ops are usually not well known and are often not easy to automate. This means that the competition for long tail MEV is based on finding new ops to target.
 
@@ -52,10 +52,10 @@ The competition for short tail MEV is intense. However, the competition for long
 Competition for short tail MEV is competition to "hit" a MEV opportunity, while long tail MEV is competition to find opportunities.
 
 ### What makes long tail MEV less competitive?
-Long tail MEV is less competitive because it is based on ops that are not well known and are often not easy to automate. This means that there are fewer bots that are competing to hit the same ops. Research and chain scanning are the tools of long tail searchers. They key difference is that losts of long-tail MEV is often not extracted because searchers simply have not discovered the alpha yet.
+Long tail MEV is less competitive because it is based on ops that are not well known and are often not easy to automate. This means that there are fewer bots that are competing to hit the same ops. Research and chain scanning are the tools of long tail searchers. They key difference is that lots of long-tail MEV is often not extracted because searchers simply have not discovered the alpha yet.
 
 ### Give me the numbers...
-Unfortunately, tools like [eigenphi](https://eigenphi.io/) do a much better job of monitoring short tail MEV extraction data than long tail MEV. The reason that MEV analysis tools can't record long tail is because it much harder to identify. Because of this lack of data, it becomes dfifficult to quantify the difference in competition using volume as an indicator.
+Unfortunately, tools like [EigenPhi](https://eigenphi.io/) do a much better job of monitoring short tail MEV extraction data than long tail MEV. The reason that MEV analysis tools can't record long tail is because it much harder to identify. Because of this lack of data, it becomes difficult to quantify the difference in competition using volume as an indicator.
 
 A more useful metric is **bribes**.
 
@@ -66,7 +66,7 @@ Bribes for short tail MEV often exceed `99.5%`. Clearly, short tail competition 
 
 In contrast, bribes for long tail MEV are often much lower. Before their alpha is leaked, long tail bots can bribe significantly less, anywhere from `0-80%`.
 
-To make things even more complicated, some long tail searchers overbribe to obfuscate their activites, throwing off any searchers running scanners to find low-bribe ops.
+To make things even more complicated, some long tail searchers over-bribe to obfuscate their activities, throwing off any searchers running scanners to find low-bribe ops.
 
 > Hmmm ... or if you discover some new alpha, can bribe 99% to discourage any looky-loos, but then have the builder return most of it to you ... 🧠
 > -- <cite>[Riposte](discordapp.com/users/777770061816922132)</cite>
