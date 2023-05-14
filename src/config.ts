@@ -4,8 +4,8 @@ import type { Site, SocialObjects } from "./types";
 export const SITE = {
   website: "https://mteam88.github.io",
   author: "Matthew (mteam88)",
-  desc: "MEV alpha, blockchain insights, and CS fun",
-  title: "mteam88",
+  desc: "I'm a MEV searcher, blockchain enthusiast, and CS student. I write about MEV, crypto, and leak too much alpha. I love visitors!",
+  title: "mteam88's Writings",
   ogImage: "fur-orange.jpg",
   lightAndDarkMode: true,
   postPerPage: 99,

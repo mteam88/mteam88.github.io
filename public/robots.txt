@@ -3,3 +3,4 @@ Disallow: /nogooglebot/
 
 User-agent: *
 Allow: /
+Sitemap: https://mteam88.github.io/sitemap-index.xml
