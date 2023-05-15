@@ -30,17 +30,20 @@ const socialImageURL = new URL(
 <html lang="en">
   <head>
     <script
-  type="text/partytown"
-  src="https://www.googletagmanager.com/gtag/js?id=G-8JZDDB21MM">
-</script>
-<script type="text/partytown">
-  window.dataLayer = window.dataLayer || [];
-  function gtag() {
-    dataLayer.push(arguments);
-  }
-  gtag("js", new Date());
-  gtag("config", "G-8JZDDB21MM");
-</script>
+      type="text/partytown"
+      src="https://www.googletagmanager.com/gtag/js?id=G-8JZDDB21MM"
+    ></script>
+    <script type="text/partytown">
+      var host = window.location.hostname;
+      if (host != "localhost") {
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+          dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+        gtag("config", "G-8JZDDB21MM");
+      }
+    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -52,7 +55,7 @@ const socialImageURL = new URL(
     <meta name="title" content={title} />
     <meta name="description" content={description} />
     <meta name="author" content={author} />
-    <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:title" content={title} />
