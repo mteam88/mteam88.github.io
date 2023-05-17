@@ -94,6 +94,8 @@ They are the team behind:
  - [MEV-Boost](https://docs.flashbots.net/flashbots-mev-boost/introduction)
  - [MEV-Share](https://docs.flashbots.net/flashbots-mev-share/overview)
  - The [Flashbots Discord](https://discord.gg/flashbots)
+ - The [Flashbots Forum](https://collective.flashbots.net)
+ - [Realized Extractable Value Dashboard](https://transparency.flashbots.net/)
 
 #### Bundle
 A bundle is a collection of transactions that are submitted to the Flashbots Auction. Bundles are submitted by searchers and are executed in the order they are received by the miner. Bundles are the primary way searchers extract MEV and hit ops.
