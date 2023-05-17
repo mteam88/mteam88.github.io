@@ -149,6 +149,7 @@ Understanding [solidity](https://docs.soliditylang.org/en/v0.8.20/) is necessary
 ### Tools
 A number of tools are useful for MEV searchers. I will list some of the most popular ones here.
  - [EigenPhi](https://eigenphi.io/) for MEV analysis
+ - [Flashbots Transparency Dashboard](https://transparency.flashbots.net/) for MEV analysis
  - [Tenderly](https://tenderly.co/transaction-simulator) for bundle simulation
  - [Flashbots](https://docs.flashbots.net/flashbots-auction/overview) for bundle submission on Ethereum
 
@@ -196,3 +197,4 @@ Some of my favorite MEV related articles and resources are as follows:
  - [Bell Curve: Interview with a Searcher 2.0](https://www.listennotes.com/podcasts/bell-curve/interview-with-a-searcher-20-Xt5YPJ_ZIq4/)
  - [0xResearch Podcast](https://www.listennotes.com/podcasts/0xresearch-sam-martin-and-dan-smith-Go1R5zhkFWJ/)
  - [Anish Agnihotri](https://anishagnihotri.com/)
+ - [The Flashbots Forum](https://collective.flashbots.net)
