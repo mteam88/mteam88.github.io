@@ -94,3 +94,6 @@ I decided not to create such a bot because it is too risky, gas expenses would c
 I hope that this article has been informative and entertaining. Please don't fall for these scams, and don't try to take advantage of them either unless you know what you are doing.
 
 See you in the mempool anon!
+
+#### PS
+After publishing this article, I read https://www.usenix.org/system/files/sec23fall-prepub-460-cernera.pdf which dives into a similar topic. I would encourage reading that if you are interested in these "one-day token rugs."
