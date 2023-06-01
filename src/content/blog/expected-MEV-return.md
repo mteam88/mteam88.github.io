@@ -10,7 +10,9 @@ description:
 ---
 ## Table of Contents
 
-0
+## 
+
+0 ETH ($0 USD)
 
 ## Conclusion
 I hope you found this helpful! I put a lot of time into these posts, so please check out some of my other articles.
