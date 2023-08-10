@@ -18,13 +18,15 @@
     "@astrojs/partytown": "^1.2.1",
     "@astrojs/rss": "^2.3.0",
     "@resvg/resvg-js": "^2.4.1",
+    "@tinacms/cli": "^1.5.26",
     "astro": "^2.1.5",
     "fuse.js": "^6.6.2",
     "github-slugger": "^2.0.0",
     "remark-collapse": "^0.1.2",
     "remark-toc": "^8.0.1",
     "satori": "^0.4.3",
-    "tailwindcss": "^3.2.7"
+    "tailwindcss": "^3.2.7",
+    "tinacms": "^1.5.17"
   },
   "devDependencies": {
     "@astrojs/react": "^2.1.0",
