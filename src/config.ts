@@ -38,5 +38,11 @@ export const SOCIALS: SocialObjects = [
     href: "https://discordapp.com/users/751534981733679166",
     linkTitle: `${SITE.title} on Discord`,
     active: true,
+  },
+  {
+    name: "Telegram",
+    href: "https://t.me/mteam888",
+    linkTitle: `${SITE.title} on Telegram`,
+    active: true,
   }
 ];
