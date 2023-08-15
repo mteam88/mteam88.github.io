@@ -6,6 +6,7 @@ tags:
   - MEV
 description:
   An informative post for anyone new to MEV. Learn the lingo, the culture, and technical details of running a bot.
+featured: true
 ---
 
 ## Table of Contents
