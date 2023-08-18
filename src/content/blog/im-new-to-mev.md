@@ -30,7 +30,7 @@ The [MEV supply chain](https://docs.flashbots.net/flashbots-auction/overview#tec
 - **Relays** which submit blocks from builders to validators
 - **Validators/Proposers** who propose blocks to the blockchain
 
-![Graphical representation of the MEV supply chain](https://docs.flashbots.net/assets/images/mevboost-searcher-bundle-flow-bae4ba67a9d8d928efe337f36defa14a.png)
+<img src="/assets/mevboost-searcher-bundle-flow.png" width="100%" alt="Graphical representation of the MEV supply chain">
 
 An **MEV bot** is an automated program that attempts to extract MEV. We refer to the people who run these bots as **searchers.** 
 
