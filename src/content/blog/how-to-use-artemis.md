@@ -2,6 +2,7 @@
 pubDatetime: 2023-08-15T23:57:35
 title: How to use the Artemis MEV framework
 draft: false
+featured: true
 tags:
   - MEV
   - Artemis
