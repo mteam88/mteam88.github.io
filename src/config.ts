@@ -5,7 +5,7 @@ export const SITE = {
   website: "https://mteam88.github.io",
   author: "Matthew (mteam88)",
   desc: "I'm a MEV searcher, blockchain enthusiast, and CS student. I write about MEV, crypto, and leak too much alpha. I love visitors!",
-  title: "mteam88's Writings",
+  title: "mteam88's Writings: Blockchain, Crypto, Computer Science",
   ogImage: "fur-orange.jpg",
   lightAndDarkMode: true,
   postPerPage: 99,
