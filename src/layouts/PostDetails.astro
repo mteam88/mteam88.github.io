@@ -27,7 +27,7 @@ const ogUrl = new URL(ogImage ? ogImage : `${title}.png`, Astro.url.origin)
       class="focus-outline mb-2 mt-8 flex hover:opacity-75"
       onclick="
       history.back()
-"
+      "
     >
       <svg xmlns="http://www.w3.org/2000/svg"
         ><path
@@ -41,6 +41,18 @@ const ogUrl = new URL(ogImage ? ogImage : `${title}.png`, Astro.url.origin)
     <Datetime datetime={pubDatetime} size="lg" className="my-2" />
     <article id="article" role="article" class="prose mx-auto mt-8 max-w-4xl">
       <Content />
+      <p>
+        If you found this post helpful, please consider subscribing to my
+        newsletter for future updates:
+      </p>
+
+      <div style="display: flex; align-items: center; justify-content: center">
+        <iframe
+          src="https://mteam88.substack.com/embed"
+          width="480"
+          height="320"
+          style="border:1px solid #EEE; background:white;"></iframe>
+      </div>
     </article>
 
     <ul class="tags-container">
