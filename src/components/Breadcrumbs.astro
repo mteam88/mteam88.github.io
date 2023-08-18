@@ -8,8 +8,7 @@ const breadcrumbList = currentUrlPath.split("/").slice(1);
 
 // if breadcrumb is Home > Posts > 1 <etc>
 // replace Posts with Posts (page number)
-breadcrumbList[0] === "posts" &&
-  breadcrumbList.splice(0, 2, `Posts`);
+breadcrumbList[0] === "posts" && breadcrumbList.splice(0, 2, `Posts`);
 ---
 
 <nav class="breadcrumb" aria-label="breadcrumb">
@@ -43,7 +42,7 @@ breadcrumbList[0] === "posts" &&
 
 <style>
   .breadcrumb {
-    @apply mx-auto mt-8 mb-1 w-full max-w-3xl px-4;
+    @apply mx-auto mb-1 mt-8 w-full max-w-4xl px-4;
   }
   .breadcrumb ul li {
     @apply inline;
