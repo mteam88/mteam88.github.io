@@ -57,7 +57,7 @@ Before using Artemis, and reading this guide, you should have intermediate to ad
  - Ethereum
  - MEV
 
-My other articles on [getting started with MEV](https://mteam88.github.io/posts/im-new-to-mev/) and [Ethereum](https://mteam88.github.io/tags/ethereum)
+My other articles on [getting started with MEV](/posts/im-new-to-mev/) and [Ethereum](/tags/ethereum)
 
 ## Getting Started with Artemis
 **NOTE: You can find [a template for starting with Artemis on my github](https://github.com/mteam88/artemis-template)**

@@ -130,6 +130,8 @@ I'll begin by saying that building and maintaining a competitive MEV bot is **ex
 
 If you are still interested, read on.
 
+After reading this, check out my article on writing an MEV bot in Rust: [How to use the Artemis MEV framework](/posts/how-to-use-the-artemis-mev-framework/)
+
 ### Programming
 To make a competitive MEV bot you need to be able to program exceptionally well. Choosing a programming language is the first step. You should be comfortable with one of the following languages:
  - [Rust](https://www.rust-lang.org/)
@@ -190,6 +192,8 @@ Recommend reading [this article](https://writings.flashbots.net/flashbots-reorgs
 
 ## Conclusion and Further Reading
 I hope this guide has been helpful. Please use common sense while navigating the MEV community, and feel free to link this article to anyone who is new to MEV.
+
+Also check out [this article instructing how to create an MEV bot](/posts/how-to-use-the-artemis-mev-framework/) in Rust.
 
 Some of my favorite MEV related articles and resources are as follows:
  - [Flash Boys: A Wall Street Revolt](https://en.wikipedia.org/wiki/Flash_Boys)
