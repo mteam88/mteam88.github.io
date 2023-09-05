@@ -62,14 +62,14 @@ A more useful metric is **bribes**.
 Bribes for short tail MEV often exceed `99.5%`. Clearly, short tail competition is intense.
 
 > in the last months - to much alpha has been discovered and bribe percent raised above 99.99 for both sandw and arbs so good luck
-> -- <cite>[Optimalus](discordapp.com/users/808804389526700062)</cite>
+> -- <cite>[Optimalus](https://discordapp.com/users/808804389526700062)</cite>
 
 In contrast, bribes for long tail MEV are often much lower. Before their alpha is leaked, long tail bots can bribe significantly less, anywhere from `0-80%`.
 
 To make things even more complicated, some long tail searchers over-bribe to obfuscate their activities, throwing off any searchers running scanners to find low-bribe ops.
 
 > Hmmm ... or if you discover some new alpha, can bribe 99% to discourage any looky-loos, but then have the builder return most of it to you ... 🧠
-> -- <cite>[Riposte](discordapp.com/users/777770061816922132)</cite>
+> -- <cite>[Riposte](https://discordapp.com/users/777770061816922132)</cite>
 
 ## But why?
 Tying all this back to the differences in competition between long and short tail MEV, competition boils down to bot optimization and alpha research. 
