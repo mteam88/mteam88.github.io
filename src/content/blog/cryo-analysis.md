@@ -1,7 +1,7 @@
 ---
 title: Analyzing Ethereum with Cryo
 description:
-  In this article, I install Cryo, download some ethereum data, and analyze it with graphs and charts.
+  In this article, I install Cryo, download some Ethereum data, and analyze it with graphs and charts.
 draft: false
 featured: true
 tags:
@@ -10,7 +10,7 @@ tags:
 pubDatetime: 2021-10-10T21:39:33+00:00
 ---
 
-[Cryo](https://github.com/paradigmxyz/cryo#readme) is a blockchain analysis tool built by [Paradigm.](https://www.paradigm.xyz/oss) Cryo is the easiest way to extract blockchain data for analysis. In this article, I install Cryo, download some ethereum data, and analyze it with [polars.](https://www.pola.rs/)
+[Cryo](https://github.com/paradigmxyz/cryo#readme) is a blockchain analysis tool built by [Paradigm.](https://www.paradigm.xyz/oss) Cryo is the easiest way to extract blockchain data for analysis. In this article, I install Cryo, download some Ethereum data, and analyze it with [polars.](https://www.pola.rs/)
 
 ## Table of Contents
 
@@ -28,7 +28,7 @@ From the [Cryo readme](https://github.com/paradigmxyz/cryo#readme)
 
 <iframe src="https://www.youtube.com/embed/1DFxuspPE2g" title="Rust x Ethereum Day - Cryo and Data Endgame" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-The [youtube video](https://www.youtube.com/watch?v=1DFxuspPE2g) is only about 20 minutes long. Would recommend.
+The [YouTube video](https://www.youtube.com/watch?v=1DFxuspPE2g) is only about 20 minutes long. Would recommend.
 
 Cryo is built on the [Rust](https://www.rust-lang.org/) programming language. You will need to [install Cargo](https://doc.rust-lang.org/cargo/getting-started/installation.html) before using Cryo.
 
@@ -74,7 +74,7 @@ cryo blocks <OTHER OPTIONS>
 ### Data Source
 [Cryo needs](https://github.com/paradigmxyz/cryo#json-rpc) an [rpc url](https://ethereum.org/en/developers/docs/apis/json-rpc/) to extract blockchain data from. [Chainlist](https://chainlist.org/) is an RPC aggregator that collects the fastest free and open endpoints. Any of the http endpoints listed should work, but I chose `https://eth.llamarpc.com/` from [LlamaNodes](https://llamanodes.com/)
 
-Our cryo command now looks like:
+Our cryo command now looks like this:
 
 ```shell
 cryo blocks --rpc https://eth.llamarpc.com <OTHER OPTIONS>
@@ -127,26 +127,26 @@ cryo blocks --rpc https://eth.llamarpc.com -o ./.data/ -i size <OTHER OPTIONS>
 ### Let's do it!
 Before running, we should specify specific blocks that we are interested in so we avoid downloading the entire `blocks` dataset (it's massive.) Cryo downloads data in chunks of (default) 1000 blocks, so we'll use the `--align` flag to "align block chunk boundaries to regular intervals."
 
-Our final command looks like:
+Our final command looks like this:
 ```shell
 cryo blocks -b 18100000:18190000 -i size --rpc https://eth.llamarpc.com --align -o ./.data/
 ```
 
 which downloads **90 thousand blocks** from our node and stores them in the [parquet format.](https://parquet.apache.org/)
 
-Running on my laptop took just 1 minutes and 38 seconds!!
+Running on my laptop took just 1 minute and 38 seconds!!
 
 ## Polars Analysis
 The next step in this process is to analyze the data we have. We'll use the [polars](https://www.pola.rs/) DataFrame library to read the [parquet](https://parquet.apache.org/) files that we have downloaded.
 
 I'll use an [interactive Python notebook](https://ipython.org/notebook.html) (also known as a [Jupyter Notebook](https://docs.jupyter.org/en/latest/)) inside my [VSCode](https://code.visualstudio.com/) development environment.
 
-Paradigm provides an [example notebook](https://github.com/paradigmxyz/paradigm-data-portal/blob/main/notebooks/explore_ethereum_contracts.ipynb) on their [data website](https://data.paradigm.xyz/) that I've used as a template for our own analysis.
+Paradigm provides an [example notebook](https://github.com/paradigmxyz/paradigm-data-portal/blob/main/notebooks/explore_ethereum_contracts.ipynb) on their [data website](https://data.paradigm.xyz/) that I've used as a template for our analysis.
 
-You can find the [full notebook](https://gist.github.com/mteam88/ca446170f136435db08a367c4782247b) on Github, in this section I will discuss some my findings:
+You can find the [full notebook](https://gist.github.com/mteam88/ca446170f136435db08a367c4782247b) on Github, in this section I will discuss some of my findings:
 
 ### Timestamps
-In this section I explore the timestamp data of blocks we downloaded:
+In this section, I explore the timestamp data of blocks we downloaded:
 
 
 ```python
@@ -188,7 +188,7 @@ extra_data = sorted_result_df['extra_data'].to_numpy()
 <img src="/assets/cryo-charts/block_size_extra_data.png">
 
 ### Gas
-Next, I explored the `base_fee` of blocks over time. Gas prices, as defined in [EIP-1559](https://eips.ethereum.org/EIPS/eip-1559) include both the `base_fee` defined per block, and a priority fee that is determined for every transaction by it's sender. In this section, we analyze the `base_fee` to learn about gas changes over time.
+Next, I explored the `base_fee` of blocks over time. Gas prices, as defined in [EIP-1559](https://eips.ethereum.org/EIPS/eip-1559) include both the `base_fee` defined per block and a priority fee that is determined for every transaction by its sender. In this section, we analyze the `base_fee` to learn about gas changes over time.
 
 ```python
 # get base_fee_per_gas and timestamp, sort by timestamp
@@ -265,6 +265,6 @@ Max:  2218857                # 2.2MB
 Interesting.
 
 ## Conclusion
-We only explored surface level data here. I really enjoy this kind of messing around with data. Running [the entire notebook](https://gist.github.com/mteam88/ca446170f136435db08a367c4782247b) takes only a few seconds.
+We only explored surface-level data here. I really enjoy this kind of messing around with data. Running [the entire notebook](https://gist.github.com/mteam88/ca446170f136435db08a367c4782247b) takes only a few seconds.
 
 Having such easy access to analysis of complex data increases the likelihood that people will explore their data and uncover insights.
