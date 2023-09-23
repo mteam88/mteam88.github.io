@@ -7,7 +7,7 @@ featured: true
 tags:
   - rust
   - Cryo
-pubDatetime: 2021-10-10T21:39:33+00:00
+pubDatetime: 2023-09-23T22:05:47+00:00	
 ---
 
 [Cryo](https://github.com/paradigmxyz/cryo#readme) is a blockchain analysis tool built by [Paradigm.](https://www.paradigm.xyz/oss) Cryo is the easiest way to extract blockchain data for analysis. In this article, I install Cryo, download some Ethereum data, and analyze it with [polars.](https://www.pola.rs/)
