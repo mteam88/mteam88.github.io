@@ -179,13 +179,13 @@ sorted_result_df = result_df.sort('tot_gas_used', descending=True).head(10)
 extra_data = sorted_result_df['extra_data'].to_numpy()
 ```
 
-<img src="/assets/cryo-charts/total_gas_used.png"/>
+<img src="/assets/cryo-charts/total_gas_used.png" style="background-color: white"/>
 
-<img src="/assets/cryo-charts/avg_gas_used.png">
+<img src="/assets/cryo-charts/avg_gas_used.png" style="background-color: white"/>
 
-<img src="/assets/cryo-charts/avg_base_fee.png">
+<img src="/assets/cryo-charts/avg_base_fee.png" style="background-color: white"/>
 
-<img src="/assets/cryo-charts/block_size_extra_data.png">
+<img src="/assets/cryo-charts/block_size_extra_data.png" style="background-color: white"/>
 
 ### Gas
 Next, I explored the `base_fee` of blocks over time. Gas prices, as defined in [EIP-1559](https://eips.ethereum.org/EIPS/eip-1559) include both the `base_fee` defined per block and a priority fee that is determined for every transaction by its sender. In this section, we analyze the `base_fee` to learn about gas changes over time.
