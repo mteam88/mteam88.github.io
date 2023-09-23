@@ -6,6 +6,7 @@ featured: true
 tags:
   - MEV
   - Artemis
+  - rust
 description:
     A comprehensive guide on how to use the Artemis MEV framework to write an MEV bot.
 ---
