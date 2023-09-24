@@ -84,7 +84,13 @@ If you get an error like the following:
 ```
 send error, try using a rate limit with --requests-per-second or limiting max concurrency with --max-concurrent-requests
 ```
+you might try other rpcs.
 
+#### A Note on RPCs
+If you are using an online RPC, you will likely have worse performance than if you were running a local node like [reth.](https://github.com/paradigmxyz/reth) 
+
+> if you set up your own reth node you can get 10x that speed
+> -- <cite>[Storm Silvkoff](https://www.paradigm.xyz/team/stormslivkoff) on [Telgram](https://t.me/paradigm_data/1552)</cite>
 
 ### Data Directory
 To keep our data separate from other files for analysis, I have created a `.data` directory. You must create this directory before running `cryo`.
@@ -134,7 +140,7 @@ cryo blocks -b 18100000:18190000 -i size --rpc https://eth.llamarpc.com --align 
 
 which downloads **90 thousand blocks** from our node and stores them in the [parquet format.](https://parquet.apache.org/)
 
-Running on my laptop took just 1 minute and 38 seconds!!
+Running on my laptop took just 1 minute and 38 seconds!! (Still want to try running on a reth node though.)
 
 ## Polars Analysis
 The next step in this process is to analyze the data we have. We'll use the [polars](https://www.pola.rs/) DataFrame library to read the [parquet](https://parquet.apache.org/) files that we have downloaded.
