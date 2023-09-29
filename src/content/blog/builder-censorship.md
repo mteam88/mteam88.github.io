@@ -136,7 +136,7 @@ The number we care about most (for this article) is the builder censorship domin
 According to the [Ultra Sound Relay,](https://relay.ultrasound.money/#sanctions-censorship) censored transactions (specifically OFAC-sanctioned transactions) take an average of about 67 seconds to be included--**6 times slower than normal transactions.**
 
 In my opinion, the best measurement of censorship resistance in a network is the extra time it takes to include a censored transaction on average:
-$$K_\text{censorship ratio} = \frac{t_{\text{avg censored inclusion}}}{t_{\text{avg inclusion}}}$$
+<img src="/assets/builder-censorship/censorship-eq.gif">
 
 From an excellent [article from Metrika:](https://blog.metrika.co/ethereums-censorship-controversy-a32a02a25f2d)
 
