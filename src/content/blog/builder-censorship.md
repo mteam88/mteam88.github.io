@@ -178,7 +178,7 @@ Put simply: our goal is to move the ability to censor (and the responsibility no
 
 The foundational idea of inclusion lists is simple. Inclusion lists are a list of transactions that a proposer creates that must be included in the corresponding block. **If the transactions are not included, the block will not be valid.**
 
-That is all you need to understand how inlusion lists are censorship resistant. We will explore more details in the following sections:
+That is all you need to understand how inclusion lists are censorship resistant. We will explore more details in the following sections:
 
 ### How do inclusion lists effectively prevent *builder* censorship?
 As mentioned above, the root of the problem in today's PBS is that altruism is expensive. With inclusion lists, any blocks that don't align with a proposer's preferences are invalid.
