@@ -9,7 +9,7 @@ My name is Matthew. I am a student developer learning as much as I can about my 
 I am seeking an internship to grow my real world experience.
 
 ### Contact
-
+See the links in the footer for my up to date contact information. I prefer [telegram](https://t.me/mteam888) for direct communication.
 
 ### Skills
 - 🦀 Rust
