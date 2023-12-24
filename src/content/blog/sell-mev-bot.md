@@ -3,7 +3,7 @@ title: "Anyone Selling an MEV bot is a Scammer"
 description:
     Don't fall for scams. MEV bots are not for sale.
 draft: false
-featured: true
+featured: false
 tags:
   - MEV
 pubDatetime: 2023-12-24T03:38:41+00:00
