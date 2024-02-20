@@ -2,7 +2,7 @@ import type { Site, SocialObjects } from "./types";
 
 
 export const SITE = {
-  website: "https://mteam88.github.io",
+  website: "https://mteam.space",
   author: "Matthew (mteam88)",
   desc: "I'm a MEV searcher, blockchain enthusiast, and CS student. I write about MEV, crypto, and leak too much alpha. I love visitors!",
   title: "mteam's Writings",

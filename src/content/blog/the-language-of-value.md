@@ -88,7 +88,7 @@ This is one of the most important things to know when implementing a strategy, b
 This is the most important category as it details specific steps to implement a strategy. Much more about this category will be discussed later in this article.
 
 ## Terminology
-You can read a lot of my broad definitions in this article: https://mteam88.github.io/posts/im-new-to-mev/#the-lingo
+You can read a lot of my broad definitions in this article: https://mteam.space/posts/im-new-to-mev/#the-lingo
 
 A few definitions specific to this project:
 
