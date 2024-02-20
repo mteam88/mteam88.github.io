@@ -4,12 +4,12 @@ title: "About"
 ---
 
 ## About Me
-My name is Matthew. I am a student developer learning as much as I can about my interests. I do MEV searching on various blockchains, and I do freelancing for blockchain and MEV-related development.
+My name is Matthew. I am a independent researcher and developer. I do MEV searching on various blockchains. I occasionally research topics that are interesting to me.
 
-I am seeking an internship to grow my real world experience.
+I am seeking an internship to grow my real world experience and to build connections.
 
 ### Contact
-See the links in the footer for my up to date contact information. I prefer [telegram](https://t.me/mteam888) for direct communication.
+See the links in the page footer for my up to date contact information. I prefer [telegram](https://t.me/mteam888) for direct communication.
 
 ### Skills
 - 🦀 Rust
@@ -23,6 +23,7 @@ See the links in the footer for my up to date contact information. I prefer [tel
 - 🔒 Cryptography
 - 👨‍💻 Programming
 - 🧑‍🎨 Program Design
+- ✍️ Ethereum Research
 
 
 ## Credits
