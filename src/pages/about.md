@@ -15,6 +15,7 @@ See the links in the page footer for my up to date contact information. I prefer
 - 🦀 Rust
 - 🐍 Python
 - 🔑 Blockchain Technology
+- 🥪 [MEV](https://mteam.space/posts/im-new-to-mev/)
 - 🗣️ Communication
 - 🧠 Learning
 
