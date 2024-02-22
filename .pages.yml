@@ -1,6 +1,6 @@
 media:
     input: public/assets
-    output: /assets/
+    output: /assets
 
 content:
   - name: content
