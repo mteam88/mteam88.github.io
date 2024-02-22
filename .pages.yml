@@ -8,4 +8,16 @@ content:
     type: collection
     path: src/content/blog
     fields: 
+      - name: title
+        type: text
+      - name: draft
+        type: boolean
+      - name: featured
+        type: boolean
+      - name: tags
+        list: true
+        type: string
+      - name: pubDateTime
+        type: date
+        
   
