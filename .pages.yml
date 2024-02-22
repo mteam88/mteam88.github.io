@@ -19,5 +19,12 @@ content:
         type: string
       - name: pubDateTime
         type: date
-        
+    view:
+      fields: [ title ]
+      primary: title
+      sort: [ pubDateTime, title ]
+      default:
+        search: ''
+        sort: title
+        order: desc
   
