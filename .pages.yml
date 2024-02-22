@@ -1,3 +1,11 @@
 media:
-  input: public/assets
-  output: /assets/
+    input: public/assets
+    output: /assets/
+
+content:
+  - name: content
+    label: Articles
+    type: collection
+    path: src/content/blog
+    fields: 
+  
