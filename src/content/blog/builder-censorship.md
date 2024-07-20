@@ -53,7 +53,7 @@ As an example: if a protocol relies on the median vote of 10 oracle providers wh
 
 ### [NEW] Forced Inclusion Censorship
 Vitalik mentions this final reason in his landmark 
-[Endgame post.](https://vitalik.ca/general/2021/12/06/endgame.html)
+[Endgame post.](https://vitalik.eth.limo/general/2021/12/06/endgame.html)
 
 Although not included in Vitalik's original post, the recent rise of optimistic rollups creates a new problem. If a rollup sequencer (centralized, shared, or decentralized) was censoring a user, **they would have no way to escape the rollup except by forced inclusion on Ethereum.**
 > If users are being censored, they need some way to either force withdrawal from the rollup or force inclusion of their transactions into the L2.
@@ -274,7 +274,7 @@ This isn't currently relevant because any sanctioned transactions would be in th
 **Censorship bad. Builder censorship bad. Inclusion lists good. Inclusion lists slow? Yes, but it's okay.**
 
 > What do we get after all of this is done? We get a chain where block production is still centralized, but block validation is trustless and highly decentralized, and specialized anti-censorship magic prevents the block producers from censoring.
-> -- <cite>[Endgame - Vitalik Buterin](https://vitalik.ca/general/2021/12/06/endgame.html)</cite>
+> -- <cite>[Endgame - Vitalik Buterin](https://vitalik.eth.limo/general/2021/12/06/endgame.html)</cite>
 
 ## Reference Material + Further Reading
 | Article                                                                                                                                                                                                    | Description                                                                                |
